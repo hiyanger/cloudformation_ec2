@@ -80,7 +80,7 @@ Resources:
             - !Ref EC2SG
       UserData: !Base64 |
         #!/bin/bash
-        sudo yum install -y GatewayId:
+        sudo yum install -y git:
       Tags: 
         - Key: Name
           Value: ec2-a-cf
